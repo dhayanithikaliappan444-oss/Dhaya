@@ -1,0 +1,78 @@
+    font-family: Arial, sans-serif;
+    background:#f4f7fc;
+    dbody{
+isplay:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.2);
+    text-align:center;
+    width:400px;
+}
+
+h1{
+    color:#0077cc;
+}
+
+input{
+    width:90%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#0077cc;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#005fa3;
+}
+
+#result{
+    margin-top:20px;
+    text-align:left;
+}
+/* Dark Mode */
+
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode .container{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark-mode input{
+    background:#333;
+    color:white;
+    border:1px solid #666;
+}
+
+.dark-mode button{
+    background:#4CAF50;
+}
+
+.dark-mode #result{
+    color:white;
+}
+
+.dark-mode .progress-container{
+    background:#555;
+}
